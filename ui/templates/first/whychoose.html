@@ -1,0 +1,193 @@
+{% extends 'base.html' %}
+
+{% block title %}
+
+{% endblock %}
+
+{% block body %}
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    color: #565655;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    color: #565655;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+}
+
+.txt-part {
+    padding: 3vw;
+    color: #565656;
+    font-size: 4vw;
+}
+.txt-part p {
+    font-size: 1.5vw;
+    line-height: 3vw;
+}
+.txt-part b {
+    font-size: 1.8vw;
+    line-height: 3vw;
+}
+
+
+.A{
+    background-color: #343A40;
+    height: 4vw;
+    width: 100%;
+    margin-bottom: 2px;
+}
+
+.B{
+    background-color: #343A40;
+    height: 100%;
+    width: 100%;
+}
+.B h2{
+    padding: 2vw;
+    color: #fff;
+    font-size: 1.4vw;
+}
+
+
+
+
+@media (max-width:992px) {
+    .txt-part{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .copyright{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:355px) {
+    .img-part{
+        height: 100%;
+        width: 150vw;
+        padding-top: 55vw;
+    }
+}
+</style>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="whychosoe.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <div class="img-part">
+        <img src="http://www.cosmosconsulting.in/assets/images/Why-us.png" alt="" height="500px" width="100%">
+
+    </div>
+
+    <div class="txt-part">
+        <h4>Why Choose US</h4>
+        <p>We are able to set new delivery standards as we understand the functional side of the organization and it's
+            <br>dynamics.
+        </p>
+
+        <p>Our key differentiators : </p>
+
+        <b>Commitment to Excellence
+        </b>
+
+        <p>Key success factor for us is "Quality with Speed". We strive to exceed the expectations of our clients and
+            candidates, and becoming better, long standing partners. Through our collective approach of developing new
+            ideas and being receptive to change, we continually push the boundaries of outstanding service.
+        </p>
+        <p>A Work Ethic that embraces a Passion for Excellence is written into our DNA.
+
+        </p>
+
+        <b>Domain Expertise
+        </b>
+
+        <p>Our team, having worked in different domains in leading organizations understands the ground pressures and
+            environment. Our competency lies in our ability to leverage this experience in the evaluation process.
+        </p>
+
+        <p>This enables us in doing our role better and find candidates who fit the role as well as the organization
+            culture.
+
+        </p>
+
+        <b>Customer First
+        </b>
+
+        <p>Being customer centric is in our value system - we believe in proactive communication, adherence to
+            timelines, responsiveness and seamless coordination.
+        </p>
+
+        <b>Relationship Driven</b>
+
+        <p>We customize our search as per client requirements. We give realistic time frames depending on the complexity
+            of the mandate. This transparent approach wins us trust and confidence. Our endeavour is to be the brand
+            ambassador for our clients.
+
+        </p>
+    <br>
+        <p>We believe in building equally strong relationships with our candidates. Finding candidates is one step -
+            getting them to respond is equally critical. As recruiters, we care about our candidates' long-term success.
+            This is where emotional intelligence plays a large role. Long term relationships with candidates are sought
+            after and valued.
+
+        </p>
+
+        <b>Integrity
+        </b>
+
+        <p>We pride ourselves in maintaining the highest degree of ethical standards and professionalism in all our
+            dealings with the clients and candidates.
+
+        </p>
+       
+    </div>
+
+    <div class="copyright">
+        <div class="A"></div>
+
+        <div class="B">
+            <h2>Copyright ©2019 All rights reserved | This template is made with ♥ by ABCD</h2>
+        </div>
+    </div>
+</body>
+
+</html>
+
+{% endblock  %}

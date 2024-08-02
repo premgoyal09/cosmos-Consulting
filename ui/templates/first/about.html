@@ -1,0 +1,142 @@
+{% extends 'base.html' %}
+
+{% block title %}
+
+{% endblock %}
+
+{% block body %}
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+        * {
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+            font-family: "Roboto", sans-serif;
+            color: #565655;
+        }
+        
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+            background-color: #fff;
+        }
+        .txt-part {
+            padding: 3vw;
+            color: #565656;
+            font-size: 4vw;
+        }
+        .txt-part p {
+            font-size: 1.5vw;
+            line-height: 3vw;
+        }
+        
+        .A{
+            background-color: #343A40;
+            height: 4vw;
+            width: 100%;
+            margin-bottom: 2px;
+        }
+        
+        .B{
+            background-color: #343A40;
+            height: 100%;
+            width: 100%;
+        }
+        .B h2{
+            padding: 2vw;
+            color: #fff;
+            font-size: 1.4vw;
+        }
+        
+        @media (max-width:992px) {
+            .copyright{
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .txt-part{
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .img-part{
+                height: 100%;
+                width: 150vw;
+                padding-top: 55vw;
+            }
+        }
+    </style>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="about.css">
+    
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div class="img-part">
+        <img src="http://www.cosmosconsulting.in/assets/images/About-Us.png" alt="" height="500px" width="100%">
+
+    </div>
+    
+    <div class="txt-part">
+        <h4>About US</h4>
+        <p>We are a young search firm - raring to deliver and excel. Our goal is to establish a reputation for excellence, total commitment and strong work ethics.
+        </p>
+        
+        <p>Headquartered at Gurgaon, we provide the entire gamut of recruitment services across India.
+        </p>
+        <p>Ritu Verma (ritu@cosmosconsulting.in) is the Business Head at Cosmos Consulting. She has over 15 years of experience in the areas of Business Planning & Strategy, Recruitment & Team Management and Key Account Management. Throughout her career, she has maintained unwavering focus on Service Excellence in all client relationships. She holds a PGDBM (Finance) from IMI, Delhi and Economics (Hons) from Lady Sri Ram College, Delhi. She also holds a Diploma in Insurance from CII, UK.
+        </p>
+        <p>She has successfully executed searches on challenging & high-impact leadership positions for varied industry segments & verticals. She has an innate capability of connecting with people and is a trusted advisor to both clients & candidates.
+        </p>
+
+        <p>We understand how critical it is to the success of any organization to find the right resources in the given time frame. Our recruitment search methodology ensures that search is of highest quality and only relevant profiles are shared with the client.
+        </p>
+
+        <p>Our mantra is proactive & systematic search. Our search process is extensive and our endeavour is to provide quality output within specific timelines.
+        </p>
+         <p><b>We follow a methodology driven approach to Recruitment and have a transparent workflow as defined below :
+        </b></p>
+
+        <p><span><i class="ri-arrow-right-s-fill"></i></span>Comprehensive understanding of the client requirements.</p>
+        
+        <p><span><i class="ri-arrow-right-s-fill"></i></span> Research through databases/ networking/ referrals..</p>
+        
+        <p><span><i class="ri-arrow-right-s-fill"></i></span> Candidate assessment through detailed discussions: We evaluate candidates looking at their personal and professional qualifications, potential for long-term contribution, ability to produce results, clarity of thought and communication and fit with the corporate culture..</p>
+        
+        <p><span><i class="ri-arrow-right-s-fill"></i></span> Presenting of the shortlist to the client: Prior to recommending any candidature, we ensure that we find a thorough fitment to skill sets and role objectives..</p>
+        
+        <p><span><i class="ri-arrow-right-s-fill"></i></span> Scheduling the interview process..</p>
+        
+        <p><span><i class="ri-arrow-right-s-fill"></i></span> Facilitate the negotiations..</p>
+        
+        <p><span><i class="ri-arrow-right-s-fill"></i></span>  Reference checks.</p>
+        
+        <p><span><i class="ri-arrow-right-s-fill"></i></span>  Regular interaction with both the candidate and client to ensure smooth onboarding.</p>
+        
+        <p>With an aim to build and foster long term relationships, we keep the client and candidates at the centre of everything we do. We consider ourselves as strategic partners and not vendors to our clients as Talent Acquisition is critical to the success of any business.</p>
+
+        <br>
+
+ 
+    </div>
+
+    <div class="copyright">
+        <div class="A"></div>
+        
+        <div class="B">
+            <h2>Copyright ©2019 All rights reserved | This template is made with ♥ by ABCD</h2>
+        </div>
+    </div>
+
+</body>
+</html>
+
+
+{% endblock  %}

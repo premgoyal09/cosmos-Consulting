@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block title %}
+
+{% endblock  %}
+
+{% block body %}
+
+<div class="container">
+<h1>if you interested so fill the form</h1>
+    <form method="post" action="/contact">
+        {% csrf_token %}
+        <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name">
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="Enter your email">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+            <label for="phone" class="form-label">Mobile Number</label>
+            <input type="number" class="form-control" id="phone" name="phone" placeholder="Enter Your Contact Details">
+        </div>
+        <div class="mb-3">
+            <label class="form-label" for="">Describe</label>
+            <textarea class="form-control" name="content" id="content"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+{% endblock  %}
